@@ -1,0 +1,28 @@
+{
+  "name": "testnodetypescript",
+  "version": "0.0.1",
+  "description": "test node typescript",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelFlorez/node-typescript.git"
+  },
+  "keywords": [
+    "node",
+    "typescript"
+  ],
+  "author": "Manuel Florez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelFlorez/node-typescript/issues"
+  },
+  "homepage": "https://github.com/ManuelFlorez/node-typescript#readme",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.4"
+  }
+}
